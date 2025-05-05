@@ -1,0 +1,16 @@
+{
+    "name": "Contract Email Warning",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Warns if a contract is being sent to internal email addresses.",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "host_permissions": ["https://mail.google.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
+  
