@@ -8,6 +8,7 @@ const blockList = [
     "NTX Records",
     "ntx records",
     "Sarai Zaragoza Team Lead ACT LOP",
+    "recs@infinitycare1.com",
     "Tiffany Vanegas",
     "sufyanar@actclinic.com",
     "Sufyan A Software Engineer Collections",
